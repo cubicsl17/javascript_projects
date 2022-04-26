@@ -1,0 +1,86 @@
+body{
+    background-color: #333333;
+}
+#main-page{
+    position: relative;
+    max-width: 100%;
+    height: 100%;
+    background-color:  #FFFFFF;
+    border-radius: 8px;    
+
+}
+#navbar{
+    width:133vw;
+    height: 25px;
+    font-family: Inconsolata;
+    font-size: 20.4px;
+    font-weight: 400,bold;
+    background-color: transparent;
+    text-transform: uppercase;
+
+}
+
+#container{
+    display: flex;
+}
+#left-most{
+    flex: 1;
+
+
+
+}
+#left-most img{
+    width: 88%;
+    height: 100%;
+
+}
+#right-most{
+    flex: 1;
+    padding: 50px;
+}
+#right-most h1{
+    width: 586px;
+    height: 190px;
+    top: 265px;
+    left: 735px;
+    font-family: Space Mono;
+    font-size: 64px;
+    font-weight: 700,bold;
+    line-height: 94.78px;
+}
+#right-most p{
+    height: 108px;
+    width: 381px;
+    left: 736px;
+    top: 491px;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    text-align: left;
+
+
+}
+#right-most button{
+    height: 68px;
+    width: 201px;
+    left: 740px;
+    top: 663px;
+    border-radius: 0px;
+    padding: 19px;
+    background-color: black;
+    border-radius: 16px;
+
+}
+#right-most button a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+#right-most button:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+#right-most button:hover a{
+    color:black ;
+}
